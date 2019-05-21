@@ -1,0 +1,96 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6ae54fa5b9035d52989aeb1ae82cbbce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6c565c5667c6326063f4d43148a7bd30/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/7fddcfb7ca1f130bba2ddb3c93f4a571/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cf85061fcc8539643d4b85a9cc182c90/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/bb1a85daf89cd2d02f089f3aa269ab0a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ba5cc4f1254d27e107fb64b3d055cd5f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0fa9b13888a3ca2c44623fa8b46651c2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/aba7f42ea88bf53cb25192db5ade6e06/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/83e4c8026ff6d92a69cee93253707f5b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1061dcd1f99eb6e69b9a603a87839d8e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2db923113c3727091d6be3cc59819a42/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+	package
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:18:5-45
+		INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+		INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+		INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:17:11-69
+application
+ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:20:5-32:19
+	android:supportsRtl
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:23:9-41
+	android:icon
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:25:9-40
+activity#com.example.android.SimpleCalc.MainActivity
+ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:26:9-31:20
+	android:name
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:26:19-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6ae54fa5b9035d52989aeb1ae82cbbce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/6ae54fa5b9035d52989aeb1ae82cbbce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6c565c5667c6326063f4d43148a7bd30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6c565c5667c6326063f4d43148a7bd30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/7fddcfb7ca1f130bba2ddb3c93f4a571/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/7fddcfb7ca1f130bba2ddb3c93f4a571/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cf85061fcc8539643d4b85a9cc182c90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cf85061fcc8539643d4b85a9cc182c90/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/bb1a85daf89cd2d02f089f3aa269ab0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/bb1a85daf89cd2d02f089f3aa269ab0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ba5cc4f1254d27e107fb64b3d055cd5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ba5cc4f1254d27e107fb64b3d055cd5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0fa9b13888a3ca2c44623fa8b46651c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/bulana/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0fa9b13888a3ca2c44623fa8b46651c2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/aba7f42ea88bf53cb25192db5ade6e06/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/aba7f42ea88bf53cb25192db5ade6e06/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/83e4c8026ff6d92a69cee93253707f5b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/83e4c8026ff6d92a69cee93253707f5b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1061dcd1f99eb6e69b9a603a87839d8e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1061dcd1f99eb6e69b9a603a87839d8e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2db923113c3727091d6be3cc59819a42/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/bulana/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/2db923113c3727091d6be3cc59819a42/AndroidManifest.xml:20:5-44
+INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+		ADDED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/bulana/SimpleCalc/app/src/main/AndroidManifest.xml
