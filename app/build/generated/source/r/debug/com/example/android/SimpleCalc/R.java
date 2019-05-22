@@ -2609,8 +2609,9 @@ public final class R {
     public static final int search_menu_title=0x7f0b0022;
     public static final int status_bar_notification_info_overflow=0x7f0b0023;
     public static final int sub_operation_text=0x7f0b0024;
-    public static final int type_operand_one_hint=0x7f0b0025;
-    public static final int type_operand_two_hint=0x7f0b0026;
+    public static final int toast_message=0x7f0b0025;
+    public static final int type_operand_one_hint=0x7f0b0026;
+    public static final int type_operand_two_hint=0x7f0b0027;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0c0000;

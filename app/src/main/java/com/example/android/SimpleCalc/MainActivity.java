@@ -20,18 +20,17 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * SimpleCalc is the initial version of SimpleCalcTest.  It has
  * a number of intentional oversights for the student to debug/fix,
  * including input validation (no input, bad number format, div by zero)
- *
+ * <p>
  * In addition there is only one (simple) unit test in this app.
  * All the input validation and the unit tests are added as part of the lessons.
- *
  */
 public class MainActivity extends Activity {
 
@@ -43,6 +42,21 @@ public class MainActivity extends Activity {
     private EditText mOperandTwoEditText;
 
     private TextView mResultTextView;
+
+    /**
+     * @return the operand value entered in an EditText as double.
+     */
+    private static Double getOperand(EditText operandEditText) {
+        String operandText = getOperandText(operandEditText);
+        return Double.valueOf(operandText);
+    }
+
+    /**
+     * @return the operand text which was entered in an EditText.
+     */
+    private static String getOperandText(EditText operandEditText) {
+        return operandEditText.getText().toString();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,11 +104,18 @@ public class MainActivity extends Activity {
     }
 
     private void compute(Calculator.Operator operator) {
-        double operandOne;
-        double operandTwo;
+        double operandOne = 0;
+        double operandTwo = 0;
         try {
-            operandOne = getOperand(mOperandOneEditText);
-            operandTwo = getOperand(mOperandTwoEditText);
+            if (isValid(mOperandOneEditText) && isValid(mOperandTwoEditText)) {
+                operandOne = getOperand(mOperandOneEditText);
+                operandTwo = getOperand(mOperandTwoEditText);
+            } else {
+                Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
+                toast.show();
+//                mResultTextView.setText("enter both operands");
+                return;
+            }
         } catch (NumberFormatException nfe) {
             Log.e(TAG, "NumberFormatException", nfe);
             mResultTextView.setText(getString(R.string.computationError));
@@ -126,18 +147,7 @@ public class MainActivity extends Activity {
         mResultTextView.setText(result);
     }
 
-    /**
-     * @return the operand value entered in an EditText as double.
-     */
-    private static Double getOperand(EditText operandEditText) {
-        String operandText = getOperandText(operandEditText);
-        return Double.valueOf(operandText);
-    }
-
-    /**
-     * @return the operand text which was entered in an EditText.
-     */
-    private static String getOperandText(EditText operandEditText) {
-        return operandEditText.getText().toString();
+    private boolean isValid(EditText editText) {
+        return !editText.getText().toString().isEmpty();
     }
 }

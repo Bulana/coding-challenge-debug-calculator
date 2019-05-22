@@ -794,8 +794,9 @@ int string mul_operation_text 0x7f0b0021
 int string search_menu_title 0x7f0b0022
 int string status_bar_notification_info_overflow 0x7f0b0023
 int string sub_operation_text 0x7f0b0024
-int string type_operand_one_hint 0x7f0b0025
-int string type_operand_two_hint 0x7f0b0026
+int string toast_message 0x7f0b0025
+int string type_operand_one_hint 0x7f0b0026
+int string type_operand_two_hint 0x7f0b0027
 int style AlertDialog_AppCompat 0x7f0c0000
 int style AlertDialog_AppCompat_Light 0x7f0c0001
 int style Animation_AppCompat_Dialog 0x7f0c0002
